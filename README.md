@@ -8,7 +8,7 @@
 **Notes:**
   * You are free to use any popular UI test framework/tool(i.e. Selenium,Cypress)
   * You are free to use any popular API test framework/tool(i.e. Postman,Jest)
-  * After complete please upload the code in a Github repository and share the repository link to <jobs@trmedia.ca> (Please keep the repository public)
+  * After complete please upload the code in a Github repository and share the repository link to <contact@trmedia.ca> (Please keep the repository public)
 
 ## Tasks
 
