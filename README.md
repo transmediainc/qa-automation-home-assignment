@@ -8,7 +8,7 @@
 **Notes:**
   * You are free to use any popular UI test framework/tool(i.e. Selenium,Cypress)
   * You are free to use any popular API test framework/tool(i.e. Postman,Jest)
-  * After complete please upload the code in a Github repository(Please keep the repository public) and submit this [Google Form](https://forms.gle/bZEhAzZTxKpqNGPZ8)
+  * After complete, please upload the code in a Github repository(Please keep the repository public) and submit this [Google Form](https://forms.gle/bZEhAzZTxKpqNGPZ8)
 ## Tasks
 
 **UI Automation**
