@@ -49,10 +49,10 @@ module.exports = (req, res, next) => {
     // send welcome email if header is true
     sendmail(
       {
-        from: 'trelloapp@filiphric.sk',
+        from: 'contact@trmedia.ca',
         html:
           'Your account was successfully created!\nIn the meantime, subscribe to my <a href="https://www.youtube.com/channel/UCDOCAVIhSh5VpJMEfdak1OA">YouTube channel for Cypress tips!</a>',
-        subject: 'Welcome to Trello app',
+        subject: 'Welcome to App',
         to: req.body.email
       },
       function(err, reply) {
