@@ -1,16 +1,37 @@
-## Trello clone app written in Vue 3 + Typescript + Vite + TailwindCSS
+## Transmedia QA Recruitment Technical Test
 
-[![trello app](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/qmz9cz&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/qmz9cz/runs) [![codecov](https://codecov.io/gh/filiphric/trelloapp-vue-vite-ts/branch/main/graph/badge.svg?token=0CFFEB154E)](https://codecov.io/gh/filiphric/trelloapp-vue-vite-ts)
+**Notes:**
 
-<p align="center" width="100%">
-    <img width="100%" src="./public/trello.gif">
-</p>
+- You are free to use any popular UI test framework/tool(i.e. Selenium,Cypress)
+- You are free to use any popular API test framework/tool(i.e. Postman,Jest)
+- After complete, please upload the code in a Github repository(Please keep the repository public) and submit this [Google Form](https://forms.gle/bZEhAzZTxKpqNGPZ8)
 
-This is a second version of [Trello clone](https://github.com/filiphric/trelloapp) app, which I use for my Cypress.io workshops. I create this to explain and showcase Cypress capabilities, much like [Real world application](https://github.com/cypress-io/cypress-realworld-app) by Cypress. 
+## Pre-requisite
 
-To install, simply clone this project and
+Install the app, simply clone this project and
 
 1. `npm install`
 2. `npm start`
 
-What you can see here is pretty much still work in progress and far from done. This is my Playground, don’t judge the code quality.
+## Tasks
+
+**UI Automation**
+
+```
+1. Input a Board name, press enter. Verify Board created successfully.
+2. Add two lists and verify two lists created successfully.
+3. Delete a list.
+```
+
+**API Automation**
+
+```
+1. Add a new list
+2. Delete the newly created list
+```
+
+**Evaluation Criteria:**
+
+- Project Structure(30%)
+- Best practises and clean code(40%)
+- Workable code(30%)

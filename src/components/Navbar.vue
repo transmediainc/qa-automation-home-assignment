@@ -1,17 +1,9 @@
 <template>
   <nav class="shadow-xl">
-    <button
-      data-cy="home"
-      :class="[route.path !== '/' ? 'visible' : 'invisible']"
-      @click="router.push('/')"
-    >
+    <button data-cy="home" :class="[route.path !== '/' ? 'visible' : 'invisible']" @click="router.push('/')">
       <Home class="place-self-center" />
     </button>
-    <img
-      data-cy="trello-logo"
-      src="@/assets/trello-logo.gif"
-      @click="router.push('/')"
-    >
+    <img data-cy="tm-logo" src="@/assets/tm-logo.gif" @click="router.push('/')" />
     <Login />
   </nav>
 </template>
