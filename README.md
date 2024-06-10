@@ -1,9 +1,4 @@
-# Transmedia QA Recruitment Technical Test
-
-**Prerequisite**
-
-- Visit the site [OWASP JUICE SHOP](https://juice-shop.herokuapp.com).
-- Create an account in the site
+## Transmedia QA Recruitment Technical Test
 
 **Notes:**
 
@@ -11,20 +6,28 @@
 - You are free to use any popular API test framework/tool(i.e. Postman,Jest)
 - After complete, please upload the code in a Github repository(Please keep the repository public) and submit this [Google Form](https://forms.gle/bZEhAzZTxKpqNGPZ8)
 
+## Pre-requisite
+
+Install the app, simply clone this project and
+
+1. `npm install`
+2. `npm start`
+
 ## Tasks
 
 **UI Automation**
 
 ```
-1. Login with your user, add 1 item to the basket, click on checkout, add a new address, fill in the address form, click on submit
-2. Verify search button, search for apple, verify that 2 apple products show up and that banana product doesn't show up
+1. Input a Board name, press enter. Verify Board created successfully.
+2. Add two lists and verify two lists created successfully.
+3. Delete a list.
 ```
 
 **API Automation**
 
 ```
-1. Sign in the user, add 1 item to the basket, verify that 1 item is in the basket.
-2. Sign in the user, add 2 items to the basket, delete 1 item and validate that only 1 item remains in the basket
+1. Add a new list
+2. Delete the newly created list
 ```
 
 **Evaluation Criteria:**
